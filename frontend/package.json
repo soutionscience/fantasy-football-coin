@@ -4,6 +4,7 @@
   "description": "fantancy football coin",
   "main": "index.js",
   "scripts": {
+    "dev": "next dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -12,5 +13,11 @@
     "coin"
   ],
   "author": "Rubin Njagi",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "bloomer": "^0.6.3",
+    "next": "^6.1.1",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  }
 }
