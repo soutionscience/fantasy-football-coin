@@ -334,7 +334,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 var logos = {
   backgroundColor: '#009688',
   //height: '50px',
-  padding: '10px',
+  padding: '20px',
   color: 'white'
 };
 
@@ -706,6 +706,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_navbar__ = __webpack_require__("./components/navbar.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_Layout__ = __webpack_require__("./components/Layout.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_bloomer__ = __webpack_require__("bloomer");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_bloomer___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_bloomer__);
 var _jsxFileName = "C:\\Users\\Solut\\Google Drive\\work2\\projects\\fantasy football coin\\frontend\\pages\\index.js";
 
 
@@ -727,6 +729,10 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 
 
+var bodyBg = {
+  backgroundColor: 'white'
+};
+
 var Home =
 /*#__PURE__*/
 function (_Component) {
@@ -744,9 +750,150 @@ function (_Component) {
       return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__components_Layout__["a" /* default */], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 9
+          lineNumber: 16
         }
-      }, "Test");
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+        style: bodyBg,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 17
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_bloomer__["Container"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 18
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_bloomer__["Columns"], {
+        isCentered: true,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 19
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_bloomer__["Column"], {
+        isSize: {
+          mobile: 8,
+          default: '1/3'
+        },
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 20
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_bloomer__["Card"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 21
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_bloomer__["CardHeader"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 22
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_bloomer__["CardHeaderTitle"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 23
+        }
+      }, "Pick your squad")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_bloomer__["CardImage"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 25
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_bloomer__["Image"], {
+        isRatio: "4:2",
+        src: "/static/images/football-player.png",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 26
+        }
+      })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_bloomer__["CardContent"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 28
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_bloomer__["Content"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 29
+        }
+      }, "Use your coins to buy and build your team", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 31
+        }
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("small", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 32
+        }
+      }, "Solidity, web3.js, truffle suit"))))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_bloomer__["Column"], {
+        isSize: {
+          mobile: 8,
+          default: '1/3'
+        },
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 37
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_bloomer__["Card"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 38
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_bloomer__["CardContent"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 39
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_bloomer__["Content"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 40
+        }
+      }, "Use your coins to buy and build your team", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 42
+        }
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("small", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 43
+        }
+      }, "Solidity, web3.js, truffle suit"))))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_bloomer__["Column"], {
+        isSize: {
+          mobile: 8,
+          default: '1/3'
+        },
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 48
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_bloomer__["Card"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 49
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_bloomer__["CardContent"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 50
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_bloomer__["Content"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 51
+        }
+      }, "Use your coins to buy and build your team", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 53
+        }
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("small", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 54
+        }
+      }, "Solidity, web3.js, truffle suit")))))))));
     }
   }]);
 

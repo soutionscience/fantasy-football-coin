@@ -5,7 +5,7 @@ import {Container, Title, Field, Control, FieldBody, FieldLabel, Label, Input,
 const logos ={
     backgroundColor: '#009688',
     //height: '50px',
-     padding: '10px',
+     padding: '20px',
     color:'white'
 }
 

@@ -1,84 +1,4 @@
-module.exports =
-__NEXT_REGISTER_PAGE('/', function() {
-          var comp =
-      webpackJsonp([4],{
-
-/***/ "./components/Layout.js":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("./node_modules/react/index.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__header__ = __webpack_require__("./components/header.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_bloomer__ = __webpack_require__("./node_modules/bloomer/bundles/bloomer.min.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_bloomer___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_bloomer__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_next_head__ = __webpack_require__("./node_modules/next/head.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_next_head___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_next_head__);
-var _jsxFileName = "C:\\Users\\Solut\\Google Drive\\work2\\projects\\fantasy football coin\\frontend\\components\\Layout.js";
-
-
-
-
-
-var bg = {
-  position: 'fixed',
-  top: ' 0',
-  left: '0',
-  backgroundImage: "url('/static/images/background.png')",
-  backgroundSize: 'cover',
-  width: '100%',
-  height: '100%' //padding:'15px'
-  //  paddingRight: '25px'
-
-};
-var myBody = {
-  //backgroundColor:"#F5F5F5",
-  height: '100%',
-  //border: '1px #BDBDBD solid',
-  borderRadius: '1%',
-  paddingTop: '20px' // marginRight: '20px'
-
-};
-/* harmony default export */ __webpack_exports__["a"] = (function (props) {
-  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    style: bg,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_next_head___default.a, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("script", {
-    src: "https://use.fontawesome.com/releases/v5.0.13/js/all.js",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 34
-    }
-  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("link", {
-    rel: "stylesheet",
-    href: "https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 36
-    }
-  })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    style: myBody,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 40
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__header__["a" /* default */], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 42
-    }
-  }), props.children));
-});
-
-/***/ }),
+webpackHotUpdate(4,{
 
 /***/ "./components/banner.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -150,90 +70,6 @@ function (_Component) {
 
 /***/ }),
 
-/***/ "./components/header.js":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Header; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("./node_modules/react/index.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__navbar__ = __webpack_require__("./components/navbar.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__logos__ = __webpack_require__("./components/logos.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__banner__ = __webpack_require__("./components/banner.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__login__ = __webpack_require__("./components/login.js");
-var _jsxFileName = "C:\\Users\\Solut\\Google Drive\\work2\\projects\\fantasy football coin\\frontend\\components\\header.js";
-
-
-function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
-
-function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
-
-function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
-
-function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-
-
-
-
-
-
-var Header =
-/*#__PURE__*/
-function (_Component) {
-  _inherits(Header, _Component);
-
-  function Header() {
-    _classCallCheck(this, Header);
-
-    return _possibleConstructorReturn(this, (Header.__proto__ || Object.getPrototypeOf(Header)).apply(this, arguments));
-  }
-
-  _createClass(Header, [{
-    key: "render",
-    value: function render() {
-      return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 13
-        }
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__navbar__["a" /* default */], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 13
-        }
-      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__logos__["a" /* default */], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 14
-        }
-      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__banner__["a" /* default */], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 15
-        }
-      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__login__["a" /* default */], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 16
-        }
-      }));
-    }
-  }]);
-
-  return Header;
-}(__WEBPACK_IMPORTED_MODULE_0_react__["Component"]);
-
-
-
-/***/ }),
-
 /***/ "./components/login.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -265,7 +101,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 var logos = {
   backgroundColor: '#009688',
   //height: '50px',
-  padding: '20px',
+  padding: '10px',
   color: 'white'
 };
 
@@ -416,67 +252,6 @@ function (_Component) {
   }]);
 
   return Login;
-}(__WEBPACK_IMPORTED_MODULE_0_react__["Component"]);
-
-
-
-/***/ }),
-
-/***/ "./components/logos.js":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Logos; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("./node_modules/react/index.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-var _jsxFileName = "C:\\Users\\Solut\\Google Drive\\work2\\projects\\fantasy football coin\\frontend\\components\\logos.js";
-
-
-function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
-
-function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
-
-function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
-
-function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-
-var logos = {
-  backgroundColor: 'white',
-  height: '40px'
-};
-
-var Logos =
-/*#__PURE__*/
-function (_Component) {
-  _inherits(Logos, _Component);
-
-  function Logos() {
-    _classCallCheck(this, Logos);
-
-    return _possibleConstructorReturn(this, (Logos.__proto__ || Object.getPrototypeOf(Logos)).apply(this, arguments));
-  }
-
-  _createClass(Logos, [{
-    key: "render",
-    value: function render() {
-      return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-        style: logos,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 13
-        }
-      }, "Logos");
-    }
-  }]);
-
-  return Logos;
 }(__WEBPACK_IMPORTED_MODULE_0_react__["Component"]);
 
 
@@ -653,45 +428,6 @@ var M=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(e,r){e.__p
 
 /***/ }),
 
-/***/ "./node_modules/next/head.js":
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__("./node_modules/next/dist/lib/head.js")
-
-
-/***/ }),
-
-/***/ "./node_modules/webpack/buildin/harmony-module.js":
-/***/ (function(module, exports) {
-
-module.exports = function(originalModule) {
-	if(!originalModule.webpackPolyfill) {
-		var module = Object.create(originalModule);
-		// module.parent = undefined by default
-		if(!module.children) module.children = [];
-		Object.defineProperty(module, "loaded", {
-			enumerable: true,
-			get: function() {
-				return module.l;
-			}
-		});
-		Object.defineProperty(module, "id", {
-			enumerable: true,
-			get: function() {
-				return module.i;
-			}
-		});
-		Object.defineProperty(module, "exports", {
-			enumerable: true,
-		});
-		module.webpackPolyfill = 1;
-	}
-	return module;
-};
-
-
-/***/ }),
-
 /***/ "./pages/index.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -746,24 +482,24 @@ function (_Component) {
       return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__components_Layout__["a" /* default */], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 16
+          lineNumber: 14
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
         style: bodyBg,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 17
+          lineNumber: 15
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_bloomer__["Container"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 18
+          lineNumber: 16
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_bloomer__["Columns"], {
         isCentered: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 19
+          lineNumber: 17
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_bloomer__["Column"], {
         isSize: {
@@ -772,124 +508,9 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 20
+          lineNumber: 18
         }
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_bloomer__["Card"], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 21
-        }
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_bloomer__["CardHeader"], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 22
-        }
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_bloomer__["CardHeaderTitle"], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 23
-        }
-      }, "Pick your squad")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_bloomer__["CardImage"], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 25
-        }
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_bloomer__["Image"], {
-        isRatio: "4:2",
-        src: "/static/images/football-player.png",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 26
-        }
-      })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_bloomer__["CardContent"], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 28
-        }
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_bloomer__["Content"], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 29
-        }
-      }, "Use your coins to buy and build your team", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 31
-        }
-      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("small", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 32
-        }
-      }, "Solidity, web3.js, truffle suit"))))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_bloomer__["Column"], {
-        isSize: {
-          mobile: 8,
-          default: '1/3'
-        },
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 37
-        }
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_bloomer__["Card"], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 38
-        }
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_bloomer__["CardContent"], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 39
-        }
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_bloomer__["Content"], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 40
-        }
-      }, "Use your coins to buy and build your team", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 42
-        }
-      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("small", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 43
-        }
-      }, "Solidity, web3.js, truffle suit"))))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_bloomer__["Column"], {
-        isSize: {
-          mobile: 8,
-          default: '1/3'
-        },
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 48
-        }
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_bloomer__["Card"], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 49
-        }
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_bloomer__["CardContent"], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 50
-        }
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_bloomer__["Content"], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 51
-        }
-      }, "Use your coins to buy and build your team", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 53
-        }
-      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("small", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 54
-        }
-      }, "Solidity, web3.js, truffle suit")))))))));
+      })))));
     }
   }]);
 
@@ -917,18 +538,7 @@ function (_Component) {
   
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__("./node_modules/webpack/buildin/harmony-module.js")(module)))
 
-/***/ }),
-
-/***/ 3:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__("./pages/index.js");
-
-
 /***/ })
 
-},[3])
-          return { page: comp.default }
-        })
-      ;
-//# sourceMappingURL=index.js.map
+})
+//# sourceMappingURL=4.540dff61acf13bc4180c.hot-update.js.map
