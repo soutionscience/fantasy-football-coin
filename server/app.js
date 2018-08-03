@@ -7,11 +7,13 @@ var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
+let playersRouter = require('./routes/player.routes')
 
 
 let mongoose = require('mongoose')
 require('dotenv').config();
 let request = require('request')
+let getData = require('./getStats')
 
 var app = express();
 
@@ -27,6 +29,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
+app.use('/api/players', playersRouter)
 
 
 //conect mongoose
@@ -39,12 +42,7 @@ mongoose.connect(process.env.localDb,  { useNewUrlParser: true }, function(err, 
 })
 
 //make api request
-request('https://fantasy.premierleague.com/drf/bootstrap-static',  function (error, response, body) {
-  if (!error && response.statusCode == 200) {
-    let myresp = JSON.parse(body)
-    console.log(myresp.phases[0]) // Print the google web page.
-  }
-})
+ //getData.makeRequest();
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

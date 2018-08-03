@@ -4,18 +4,10 @@ const Schema = mongoose.Schema;
 
 let User = new Schema({
     username: String,
-    password: String,
     address: String,
     OauthId: String,
     OauthToken: String,
-    firstname: {
-    	type: String,
-    	default: ''
-    },
-    lastname:{
-    	type: String,
-    	default: ''
-    },
+    email: String,
     admin:   {
         type: Boolean,
         default: false
