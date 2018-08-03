@@ -22,7 +22,8 @@ exports.makeRequest =()=>{
                          "first_name": element[i].first_name,
                           "second_name": element[i].second_name,
                            "squad_number": element[i].squad_number,
-                           "now_costs": element[i].now_costs  }
+                           "now_costs": element[i].now_costs,
+                             "team": element[i].team }
         let newPlayer = new Player(playerData)
         newPlayer.save(function(err, resp){
             if(err) throw err;
@@ -31,6 +32,7 @@ exports.makeRequest =()=>{
  
 
     }
+    console.log("Added ", element.length, " players")
   }
 });
 
