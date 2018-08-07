@@ -16,9 +16,11 @@
   "license": "ISC",
   "dependencies": {
     "bloomer": "^0.6.3",
+    "ganache-cli": "^6.1.6",
     "next": "^6.1.1",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
-    "truffle": "^4.1.13"
+    "truffle": "^4.1.13",
+    "web3": "^1.0.0-beta.26"
   }
 }
