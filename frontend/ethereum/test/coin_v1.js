@@ -36,7 +36,7 @@ contract('CoinV1', function(accounts) {
     assert.equal(johnsBalance, 1000000000, "Johns initial Balance is NOT EQUALL to 1000000000!!!")
   })
   it("can transfer from one account to another", async ()=>{
-    await coin_v1.methods.transfer(jane_address, 100, {from: john_address}).send({from: john_address});
+   // await coin_v1.transfer(jane_address, 100, {from: john_address}).send({from: john_address});
     let JaneBalance = await coin_v1.balanceOf.call(jane_address);
     assert.equal(JaneBalance, 100, "Janes Balance is NOT Equal to 100!!")
 

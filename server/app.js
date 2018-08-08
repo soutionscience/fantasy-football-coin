@@ -36,7 +36,7 @@ app.use('/api/teams', teamRouter)
 
 //conect mongoose
 
-mongoose.connect(process.env.localDb,  { useNewUrlParser: true }, function(err, db){
+mongoose.connect(process.env.remoteDb,  { useNewUrlParser: true }, function(err, db){
   if(err) throw err
   console.log("connected to local db");
   database=db

@@ -6,7 +6,8 @@ import {Container, Card, Columns, Column,
 
 
 const bodyBg ={
-    backgroundColor: 'white'
+    backgroundColor: 'black',
+    height: '100%'
 }
 
 
@@ -57,6 +58,7 @@ export default class Home extends Component{
                      </Card>
                      </Column>
                     </Columns>
+                    <div>Test</div>
 
                 </Container>
                 </div>

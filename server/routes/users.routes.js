@@ -7,6 +7,9 @@ router.route('/')
 .get(controller.get)
 .post(controller.post)
 
+router.route('/:id')
+.post(controller.postTeam)
+
 
 
 module.exports = router;

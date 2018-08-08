@@ -1,8 +1,10 @@
 import react, {Component} from 'react';
 
 import Header from './header';
-import {Image} from 'bloomer'
-import Head from 'next/head'
+import {Image} from 'bloomer';
+import Head from 'next/head';
+import Footer from './footer';
+import '../style.css'
 
 const bg ={
   position: 'fixed',
@@ -11,8 +13,9 @@ const bg ={
    backgroundImage: "url('/static/images/background.png')", 
   
    backgroundSize: 'cover', 
-   width: '100%', 
-   height:'100%', 
+   width: '100%',
+   //overflowY: 'scroll' 
+   minHeight:'100%', 
    //padding:'15px'
   //  paddingRight: '25px'
 }
@@ -29,18 +32,21 @@ const myBody={
 
 
 export default props=>{
-  return( <div style={bg}>
+  return( <div className="example">
           <Head>
+            
        <script src="https://use.fontawesome.com/releases/v5.0.13/js/all.js"></script>
        {/* <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous"></link> */}
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css"></link>
-        
+        <link rel="stylesheet" href="/_next/static/css/main.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>
     </Head>
 
-  <div style={myBody}>
+  <div className= "example">
   
   <Header/>
     {props.children}
+    <Footer/>
     </div>
    
     </div>)
