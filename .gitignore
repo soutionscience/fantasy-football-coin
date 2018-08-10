@@ -1,5 +1,5 @@
 
 # Dependency directories
 
-frontend/node_modules/
-server/node_module/
+frontend/node_modules
+server/node_module
