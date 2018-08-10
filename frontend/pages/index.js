@@ -5,20 +5,20 @@ import {Container, Card, Columns, Column,
         CardContent, Content, CardImage, Image, CardHeader, CardHeaderTitle} from 'bloomer'
 
 
-const bodyBg ={
-    backgroundColor: 'black',
-    height: '100%'
-}
+// const bodyBg ={
+//     backgroundColor: 'black',
+//     height: '100%'
+// }
 
 
 export default class Home extends Component{
     render(){
         return(
             <Layout>
-                <div style ={bodyBg}>
+                <div>
                 <Container>
                     <Columns isCentered>
-                     <Column isSize={{ mobile: 8, default: '1/3'}}>
+                     <Column issize={{ mobile: 8, default: '1/3'}}>
                      <Card>
                          <CardHeader>
                              <CardHeaderTitle>Pick your squad</CardHeaderTitle>
@@ -35,7 +35,7 @@ export default class Home extends Component{
                          </CardContent>
                      </Card>
                      </Column>
-                     <Column isSize={{ mobile: 8, default: '1/3'}}>
+                     <Column issize={{ mobile: 8, default: '1/3'}}>
                      <Card>
                          <CardContent>
                          <Content>
@@ -46,7 +46,7 @@ export default class Home extends Component{
                          </CardContent>
                      </Card>
                      </Column>
-                     <Column isSize={{ mobile: 8, default: '1/3'}}>
+                     <Column issize={{ mobile: 8, default: '1/3'}}>
                      <Card>
                          <CardContent>
                          <Content>

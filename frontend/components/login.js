@@ -18,21 +18,21 @@ export default class Login extends Component{
        
             <Field isHorizontal>
 <FieldLabel isNormal>
-    <Label> <p isSize={5} style={{color:'white'}}>Please Login</p></Label>
+    <Label> <p issize={5} style={{color:'white'}}>Please Login</p></Label>
    
 </FieldLabel>
 <FieldBody>
     <Field isGrouped>
         <Control isExpanded hasIcons='left'>
             <Input placeholder='Email' />
-            <Icon isSize='small' isAlign='left'><span className="fa fa-user" aria-hidden="true"/></Icon>
+            <Icon issize='small' isAlign='left'><span className="fa fa-user" aria-hidden="true"/></Icon>
         </Control>
     </Field>
     <Field>
         <Control hasIcons={['left', 'right']}>
             <Input isColor='success' placeholder='password' value='' />
-            <Icon isSize='small' isAlign='left'><span className='fa fa-envelope' /></Icon>
-            <Icon isSize='small' isAlign='right'><span className='fa fa-check' /></Icon>
+            <Icon issize='small' isAlign='left'><span className='fa fa-envelope' /></Icon>
+            <Icon issize='small' isAlign='right'><span className='fa fa-check' /></Icon>
         </Control>
     </Field>
 </FieldBody>

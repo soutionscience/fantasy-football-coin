@@ -67,7 +67,7 @@ module.exports =
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -76,16 +76,16 @@ module.exports =
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__header__ = __webpack_require__("./components/header.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_bloomer__ = __webpack_require__("bloomer");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_bloomer___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_bloomer__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_next_head__ = __webpack_require__("next/head");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_next_head___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_next_head__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__footer__ = __webpack_require__("./components/footer.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__style_css__ = __webpack_require__("./style.css");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__style_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__style_css__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_styled_jsx_style__ = __webpack_require__("styled-jsx/style");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_styled_jsx_style___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_styled_jsx_style__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react__ = __webpack_require__("react");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__header__ = __webpack_require__("./components/header.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_bloomer__ = __webpack_require__("bloomer");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_bloomer___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_bloomer__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_next_head__ = __webpack_require__("next/head");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_next_head___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_next_head__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__footer__ = __webpack_require__("./components/footer.js");
 var _jsxFileName = "C:\\Users\\Solut\\Google Drive\\work2\\projects\\fantasy football coin\\frontend\\components\\Layout.js";
 
 
@@ -95,81 +95,73 @@ var _jsxFileName = "C:\\Users\\Solut\\Google Drive\\work2\\projects\\fantasy foo
 
 
 var bg = {
-  position: 'fixed',
-  top: ' 0',
-  left: '0',
-  backgroundImage: "url('/static/images/background.png')",
-  backgroundSize: 'cover',
-  width: '100%',
-  //overflowY: 'scroll' 
-  minHeight: '100%' //padding:'15px'
-  //  paddingRight: '25px'
-
+  // background: 'url(/static/images/background.png) center scroll',
+  background: 'black',
+  width: '100%'
 };
 var myBody = {
-  //backgroundColor:"#F5F5F5",
+  backgroundColor: "#F5F5F5",
   height: '100%',
-  //border: '1px #BDBDBD solid',
+  border: '1px #BDBDBD solid',
   borderRadius: '1%',
   paddingTop: '20px' // marginRight: '20px'
 
 };
 /* harmony default export */ __webpack_exports__["a"] = (function (props) {
-  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "example",
+  return __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_next_head___default.a, {
+      lineNumber: 28
+    },
+    className: "jsx-919395914"
+  }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4_next_head___default.a, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 29
     }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("script", {
+  }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("script", {
     src: "https://use.fontawesome.com/releases/v5.0.13/js/all.js",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38
-    }
-  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("link", {
+      lineNumber: 31
+    },
+    className: "jsx-919395914"
+  }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("link", {
     rel: "stylesheet",
     href: "https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40
-    }
-  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("link", {
-    rel: "stylesheet",
-    href: "/_next/static/css/main.css",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 41
-    }
-  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
+      lineNumber: 33
+    },
+    className: "jsx-919395914"
+  }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("meta", {
     name: "viewport",
     content: "width=device-width, initial-scale=1, viewport-fit=cover",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42
-    }
-  })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "example",
+      lineNumber: 35
+    },
+    className: "jsx-919395914"
+  })), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__header__["a" /* default */], {
+      lineNumber: 38
+    },
+    className: "jsx-919395914" + " " + "bg"
+  }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__header__["a" /* default */], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47
+      lineNumber: 41
     }
-  }), props.children, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__footer__["a" /* default */], {
+  }), props.children, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5__footer__["a" /* default */], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49
+      lineNumber: 43
     }
-  })));
+  })), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_0_styled_jsx_style___default.a, {
+    styleId: "919395914",
+    css: ".bg{background:url(/static/images/background.png) center scroll;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbXBvbmVudHNcXExheW91dC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUE2Q3dCLEFBR29FLDREQUc3RCIsImZpbGUiOiJjb21wb25lbnRzXFxMYXlvdXQuanMiLCJzb3VyY2VSb290IjoiQzpcXFVzZXJzXFxTb2x1dFxcR29vZ2xlIERyaXZlXFx3b3JrMlxccHJvamVjdHNcXGZhbnRhc3kgZm9vdGJhbGwgY29pblxcZnJvbnRlbmQiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgcmVhY3QsIHtDb21wb25lbnR9IGZyb20gJ3JlYWN0JztcclxuXHJcbmltcG9ydCBIZWFkZXIgZnJvbSAnLi9oZWFkZXInO1xyXG5pbXBvcnQge0ltYWdlfSBmcm9tICdibG9vbWVyJztcclxuaW1wb3J0IEhlYWQgZnJvbSAnbmV4dC9oZWFkJztcclxuaW1wb3J0IEZvb3RlciBmcm9tICcuL2Zvb3Rlcic7XHJcblxyXG5cclxuY29uc3QgYmcgPXtcclxuIFxyXG4gIC8vIGJhY2tncm91bmQ6ICd1cmwoL3N0YXRpYy9pbWFnZXMvYmFja2dyb3VuZC5wbmcpIGNlbnRlciBzY3JvbGwnLFxyXG4gIGJhY2tncm91bmQ6J2JsYWNrJyxcclxuICAgd2lkdGg6ICcxMDAlJ1xyXG59XHJcbmNvbnN0IG15Qm9keT17XHJcbiAgYmFja2dyb3VuZENvbG9yOlwiI0Y1RjVGNVwiLFxyXG4gIGhlaWdodDogJzEwMCUnLFxyXG4gIGJvcmRlcjogJzFweCAjQkRCREJEIHNvbGlkJyxcclxuICBib3JkZXJSYWRpdXM6ICcxJScsXHJcbiAgIHBhZGRpbmdUb3A6ICcyMHB4J1xyXG4gIC8vIG1hcmdpblJpZ2h0OiAnMjBweCdcclxuXHJcbn1cclxuXHJcblxyXG5cclxuZXhwb3J0IGRlZmF1bHQgcHJvcHM9PntcclxuICByZXR1cm4oIDxkaXY+XHJcbiAgICAgICAgICA8SGVhZD5cclxuICAgICAgICAgICAgXHJcbiAgICAgICA8c2NyaXB0IHNyYz1cImh0dHBzOi8vdXNlLmZvbnRhd2Vzb21lLmNvbS9yZWxlYXNlcy92NS4wLjEzL2pzL2FsbC5qc1wiPjwvc2NyaXB0PlxyXG4gICAgICAgey8qIDxsaW5rIHJlbD1cInN0eWxlc2hlZXRcIiBocmVmPVwiaHR0cHM6Ly91c2UuZm9udGF3ZXNvbWUuY29tL3JlbGVhc2VzL3Y1LjIuMC9jc3MvYWxsLmNzc1wiIGludGVncml0eT1cInNoYTM4NC1oV1ZqZmx3RnhMNnNOem50aWgyN2JmeGtyMjdQbWJiSy9pU3ZKK2E0KzBvd1hxNzl2K2xzRmtXNTRiT0diaURRXCIgY3Jvc3NvcmlnaW49XCJhbm9ueW1vdXNcIj48L2xpbms+ICovfVxyXG4gICAgICAgIDxsaW5rIHJlbD1cInN0eWxlc2hlZXRcIiBocmVmPVwiaHR0cHM6Ly9jZG5qcy5jbG91ZGZsYXJlLmNvbS9hamF4L2xpYnMvYnVsbWEvMC43LjEvY3NzL2J1bG1hLm1pbi5jc3NcIj48L2xpbms+XHJcbiAgICAgICAgey8qIDxsaW5rIHJlbD1cInN0eWxlc2hlZXRcIiBocmVmPVwiL19uZXh0L3N0YXRpYy9jc3MvbWFpbi5jc3NcIiAvPiAqL31cclxuICAgICAgICA8bWV0YSBuYW1lPVwidmlld3BvcnRcIiBjb250ZW50PVwid2lkdGg9ZGV2aWNlLXdpZHRoLCBpbml0aWFsLXNjYWxlPTEsIHZpZXdwb3J0LWZpdD1jb3ZlclwiLz5cclxuICAgIDwvSGVhZD5cclxuXHJcbiAgPGRpdiBjbGFzc05hbWUgPVwiYmdcIj5cclxuIFxyXG4gIFxyXG4gIDxIZWFkZXIvPlxyXG4gICAge3Byb3BzLmNoaWxkcmVufVxyXG4gICAgPEZvb3Rlci8+XHJcbiAgICA8L2Rpdj5cclxuICAgICBcclxuICAgICA8c3R5bGUgZ2xvYmFsIGpzeD57YFxyXG4gICAgICAgLmJnIHtcclxuICAgICAgIGJhY2tncm91bmQ6IHVybCgvc3RhdGljL2ltYWdlcy9iYWNrZ3JvdW5kLnBuZykgY2VudGVyIHNjcm9sbDtcclxuICBcclxuICAgICAgXHJcbiAgICAgIH1cclxuXHJcbiAgICAgIFxyXG5cclxuICAgICBgfVxyXG4gICAgIFxyXG4gICAgIDwvc3R5bGU+XHJcbiAgIFxyXG4gICAgPC9kaXY+KVxyXG59Il19 */\n/*@ sourceURL=components\\Layout.js */"
+  }));
 });
 
 /***/ }),
@@ -228,7 +220,6 @@ function (_Component) {
           lineNumber: 13
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["Title"], {
-        style: banner,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 14
@@ -462,7 +453,7 @@ function (_Component) {
           lineNumber: 21
         }
       }, " ", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
-        isSize: 5,
+        issize: 5,
         style: {
           color: 'white'
         },
@@ -495,7 +486,7 @@ function (_Component) {
           lineNumber: 27
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["Icon"], {
-        isSize: "small",
+        issize: "small",
         isAlign: "left",
         __source: {
           fileName: _jsxFileName,
@@ -528,7 +519,7 @@ function (_Component) {
           lineNumber: 33
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["Icon"], {
-        isSize: "small",
+        issize: "small",
         isAlign: "left",
         __source: {
           fileName: _jsxFileName,
@@ -541,7 +532,7 @@ function (_Component) {
           lineNumber: 34
         }
       })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["Icon"], {
-        isSize: "small",
+        issize: "small",
         isAlign: "right",
         __source: {
           fileName: _jsxFileName,
@@ -809,11 +800,10 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 
 
-
-var bodyBg = {
-  backgroundColor: 'black',
-  height: '100%'
-};
+ // const bodyBg ={
+//     backgroundColor: 'black',
+//     height: '100%'
+// }
 
 var Home =
 /*#__PURE__*/
@@ -835,7 +825,6 @@ function (_Component) {
           lineNumber: 17
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-        style: bodyBg,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 18
@@ -852,7 +841,7 @@ function (_Component) {
           lineNumber: 20
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_bloomer__["Column"], {
-        isSize: {
+        issize: {
           mobile: 8,
           default: '1/3'
         },
@@ -908,7 +897,7 @@ function (_Component) {
           lineNumber: 33
         }
       }, "Solidity, web3.js, truffle suit"))))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_bloomer__["Column"], {
-        isSize: {
+        issize: {
           mobile: 8,
           default: '1/3'
         },
@@ -942,7 +931,7 @@ function (_Component) {
           lineNumber: 44
         }
       }, "Solidity, web3.js, truffle suit"))))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_bloomer__["Column"], {
-        isSize: {
+        issize: {
           mobile: 8,
           default: '1/3'
         },
@@ -991,14 +980,7 @@ function (_Component) {
 
 /***/ }),
 
-/***/ "./style.css":
-/***/ (function(module, exports) {
-
-
-
-/***/ }),
-
-/***/ 3:
+/***/ 4:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__("./pages/index.js");
@@ -1024,6 +1006,13 @@ module.exports = require("next/head");
 /***/ (function(module, exports) {
 
 module.exports = require("react");
+
+/***/ }),
+
+/***/ "styled-jsx/style":
+/***/ (function(module, exports) {
+
+module.exports = require("styled-jsx/style");
 
 /***/ })
 
