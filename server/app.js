@@ -5,10 +5,12 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
 
+
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users.routes');
 let playersRouter = require('./routes/player.routes')
 let teamRouter = require('./routes/team.routes')
+let cors = require('cors')
 
 
 let mongoose = require('mongoose')
@@ -17,6 +19,7 @@ let request = require('request')
 let getData = require('./getStats')
 
 var app = express();
+app.use(cors())
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -38,7 +41,7 @@ app.use('/api/teams', teamRouter)
 
 mongoose.connect(process.env.remoteDb,  { useNewUrlParser: true }, function(err, db){
   if(err) throw err
-  console.log("connected to local db");
+  console.log("connected to remote db");
   database=db
 
 })
