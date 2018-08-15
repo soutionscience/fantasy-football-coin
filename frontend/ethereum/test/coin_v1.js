@@ -12,7 +12,7 @@ contract('CoinV1', function(accounts) {
 
   beforeEach(async ()=>{
     coin_v1 = await CoinV1.deployed()
-   // console.log(coin_v1.methods.totalSupply.call())
+   console.log(coin_v1.methods.totalSupply.call())
    
 
   })
